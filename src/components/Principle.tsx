@@ -1,10 +1,15 @@
 import React from 'react';
-import { PrincipleType } from '../types/principle';
 import { Sparkles, Zap } from 'lucide-react';
 import GlowWrapper from './GlowWrapper';
 
 interface PrincipleProps {
-  principle: PrincipleType;
+  principle: {
+    id: number;
+    icon: React.ComponentType<{ className?: string }>;
+    title: string;
+    description: string;
+    highlights?: string[];
+  };
   index: number;
 }
 
