@@ -1,0 +1,17 @@
+name = "rights"
+main = "src/worker.js"
+compatibility_date = "2024-01-01"
+
+# Static file serving using assets
+[assets]
+directory = "./dist"
+
+# wrangler.toml (wrangler v3.88.0^)
+[observability.logs]
+enabled = true
+
+[env.production]
+name = "rights-prod"
+
+[env.staging]
+name = "rights-staging" 
