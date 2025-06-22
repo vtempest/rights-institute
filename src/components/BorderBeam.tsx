@@ -19,7 +19,7 @@ const BorderBeam: React.FC<BorderBeamProps> = ({
 }) => {
   return (
     <div
-      className="pointer-events-none absolute inset-0 rounded-xl"
+      className=" absolute inset-0 rounded-xl"
       style={{
         '--size': size,
         '--duration': duration,

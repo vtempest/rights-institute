@@ -1,5 +1,4 @@
 name = "rights"
-main = "src/worker.js"
 compatibility_date = "2024-01-01"
 
 # Static file serving using assets

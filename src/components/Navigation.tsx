@@ -64,7 +64,7 @@ const Navigation: React.FC = () => {
     <>
       {/* Full navigation bar - only visible when not scrolled */}
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'opacity-0 pointer-events-none' : 'opacity-100 bg-slate-900/20 backdrop-blur-sm'
+        scrolled ? 'opacity-0 ' : 'opacity-100 bg-slate-900/20 backdrop-blur-sm'
       }`}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
@@ -80,7 +80,7 @@ const Navigation: React.FC = () => {
                   className="w-6 h-6 rounded-md opacity-90 hover:opacity-100 transition-opacity"
                 />
                 <span className="hidden sm:block font-semibold text-sm bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
-                  Conscious Rights
+                  10 Rights of Conscious Life
                 </span>
               </button>
             </GlowWrapper>
@@ -100,7 +100,7 @@ const Navigation: React.FC = () => {
 
       {/* Floating hamburger menu - only visible when scrolled */}
       <div className={`fixed top-4 right-4 z-50 transition-all duration-300 ${
-        scrolled ? 'opacity-100' : 'opacity-0 pointer-events-none'
+        scrolled ? 'opacity-100' : 'opacity-0 '
       }`}>
         <GlowWrapper glowColor="#8b5cf6" size="sm">
           <button

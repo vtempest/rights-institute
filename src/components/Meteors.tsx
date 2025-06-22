@@ -8,7 +8,7 @@ const Meteors: React.FC<MeteorsProps> = ({ number = 20 }) => {
   const meteors = new Array(number).fill(true);
   
   return (
-    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+    <div className="absolute inset-0 overflow-hidden ">
       {meteors.map((_, idx) => (
         <span
           key={idx}
@@ -20,7 +20,7 @@ const Meteors: React.FC<MeteorsProps> = ({ number = 20 }) => {
             animationDuration: Math.random() * (10 - 2) + 2 + "s",
           }}
         >
-          <div className="pointer-events-none absolute top-1/2 left-1/2 h-[1px] w-[50px] -translate-y-1/2 -translate-x-1/2 bg-gradient-to-r from-slate-500 to-transparent" />
+          <div className=" absolute top-1/2 left-1/2 h-[1px] w-[50px] -translate-y-1/2 -translate-x-1/2 bg-gradient-to-r from-slate-500 to-transparent" />
         </span>
       ))}
     </div>

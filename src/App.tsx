@@ -1,9 +1,9 @@
-import { useEffect, useState } from 'react';
+import Reaact, { useEffect, useState } from 'react';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
-import Preamble from './components/Preamble';
-import PrinciplesSection from './components/PrinciplesSection';
-import Implementation from './components/Implementation';
+import Understandings from './components/Understandings';
+import RightsSection from './components/RightsSection';
+import Implementation from './components/Problems';
 import DayZeroPreparation from './components/DayZeroPreparation';
 import Conclusion from './components/Conclusion';
 import Footer from './components/Footer';
@@ -96,13 +96,13 @@ function App() {
       `
     };
   };
-
+ 
   return (
     <div className="min-h-screen text-slate-100" style={getBackgroundStyle()}>
       {/* Translucent opacity filter overlay to mute all colors */}
-      <div className="fixed inset-0 bg-slate-900/60 pointer-events-none z-0" />
+      <div className="fixed inset-0 bg-slate-900/60  z-0" />
       
-      <div className="fixed inset-0 pointer-events-none">
+      <div className="fixed inset-0 ">
         {/* Much more subtle overlay effect */}
         <div 
           className="absolute inset-0 opacity-8 transition-opacity duration-700" // Reduced from opacity-15
@@ -127,8 +127,8 @@ function App() {
         <Navigation />
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <Header />
-          <Preamble />
-          <PrinciplesSection />
+          <Understandings />
+          <RightsSection />
           <Implementation />
           <DayZeroPreparation />
           <Conclusion />

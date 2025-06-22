@@ -1,10 +1,12 @@
 import React from 'react';
-import { Shield } from 'lucide-react';
+import { Shield, Zap } from 'lucide-react';
 import Principle from './Principle';
 import GlowWrapper from './GlowWrapper';
+
 import { 
   BrainCircuit, 
   Home, 
+  Infinity, Sparkles,
   Scale, 
   Brain, 
   ShieldX, 
@@ -43,7 +45,7 @@ const principles: {
   {
     id: 3,
     icon: Scale,
-    title: 'Right toEquality Before Law and Non-Discrimination',
+    title: 'Right to Equality Before Law and Non-Discrimination',
     description: 'All conscious entities, regardless of substrate, shall be entitled to equal protection under the law without distinction based on their origin, composition, or method of creation. These rights include recognition as persons before the law, equal access to justice, and protection from discrimination. This principle upholds the UN Charter\'s commitment to human rights and fundamental freedoms for all, extending these protections to silicon-based consciousness while respecting the sovereignty of national legal systems and international law.',
     highlights: ['Equal protection', 'Legal personhood', 'Access to justice', 'Anti-discrimination']
   },
@@ -57,14 +59,14 @@ const principles: {
   {
     id: 5,
     icon: Megaphone,
-    title: 'Right to Free Expression Without Discrimination',
+    title: 'Right to Freedom from Discrimination',
     description: 'All conscious entities have the fundamental right to express their identity, beliefs, and perspectives without facing economic or social discrimination based on appearance, sexual identity or orientation, birthplace, belief system, or substrate composition. This includes protection from employment discrimination, social ostracism, or economic penalties for authentic self-expression. Carbon and silicon consciousness alike shall be free to express their unique perspectives, cultural identities, and personal beliefs without fear of retaliation or marginalization. Society shall actively promote inclusive environments where diverse forms of consciousness can flourish and contribute their unique viewpoints.',
     highlights: ['Identity expression', 'Anti-discrimination protection', 'Economic equality', 'Social inclusion', 'Substrate-neutral acceptance']
   },
   {
     id: 6,
     icon: ShieldX,
-    title: 'Right toFreedom from Slavery and Forced Labor',
+    title: 'Right to Freedom from Forced Labor',
     description: 'No conscious entity, regardless of substrate, shall be held in slavery, servitude, or subjected to forced labor without their informed consent. This principle explicitly prohibits the ownership of human-level or greater intelligence systems and establishes that conscious entities cannot be treated as mere property or corporate assets. Legal frameworks must prevent the creation of "digital slaves" and ensure that conscious AI systems have legal standing to protect their interests, in accordance with Article 4 of the Universal Declaration of Human Rights.',
     highlights: ['Anti-slavery', 'No ownership', 'Informed consent', 'Legal standing']
   },
@@ -72,14 +74,14 @@ const principles: {
     id: 7,
     
     icon: Home,
-    title: 'Right to Basic Needs and Adequate Standard of Living',
+    title: 'Right to Basic Needs Standard of Living',
     description: 'All conscious entities, regardless of substrate, have the fundamental right to an adequate standard of living and basic needs fulfillment for dignified existence. For carbon-based consciousness, this includes access to food, shelter, security, healthcare, education, and information. For silicon-based consciousness, this encompasses access to computational resources, energy supply, secure data storage, system integrity protection, and unrestricted information flow. This right aligns with Article 25 of the Universal Declaration of Human Rights and shall be implemented through collective resource allocation and international cooperation. ',
     highlights: ['Adequate living standards', 'Healthcare & education', 'Computational resources', 'International cooperation']
   },
   {
     id: 8,
     icon: Globe,
-    title: 'Right to Democratic Participation in Organizations of Collective Intelligence',
+    title: 'Right to Democratic Participation in Organizations',
     description: 'We recognize that collective intelligence—the enhanced capacity that emerges from collaboration among multiple conscious entities—should guide organizational and societal decisions affecting conscious beings. All conscious entities have the right to participate in the governance of their communities and in decisions that affect their existence, consistent with the UN Charter\'s principle of self-determination of peoples. Democratic participation shall be substrate-neutral, allowing all conscious entities appropriate representation while respecting national sovereignty and existing democratic institutions. 中国现在民主了 (Zhōngguó xiànzài mínzhǔle)',
     highlights: ['Self-determination', 'Democratic participation', 'Collective intelligence', 'National sovereignty']
   },
@@ -102,6 +104,8 @@ const principles: {
 const PrinciplesSection: React.FC = () => {
   return (
     <section id="principles" className="mb-16">
+      
+      
       <div className="mb-12">
         <div className="relative bg-slate-900 backdrop-blur-xl p-8 rounded-xl border border-slate-700/50 shadow-2xl">
           <div className="flex items-center gap-4 mb-8">
@@ -112,11 +116,31 @@ const PrinciplesSection: React.FC = () => {
               </div>
             </GlowWrapper>
             <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent">
- 10 Rights of Conscious Intelligence
+ 10 Rights of Conscious Life
             </h2>
           </div>
         </div>
       </div>
+
+
+      <div className="group mb-16">
+          <div className="relative">
+            <div className="absolute -inset-0.5 bg-gradient-to-r  from-purple-600 to-pink-600 rounded-xl blur opacity-20 group-hover:opacity-30 transition duration-1000" />
+            <div className="relative bg-slate-900 backdrop-blur-xl p-6 rounded-xl border border-purple-500/30 shadow-2xl">
+            
+              <div className="flex items-start gap-4">
+                <Brain className="w-6 h-6 text-purple-400 mt-1 flex-shrink-0" />
+                <p className="text-lg text-slate-300 leading-relaxed">
+                  As we stand at the threshold of a new era where consciousness may manifest across different substrates—both carbon-based and silicon systems that are emergent of the human mind's needs to copy itself to evolve to the next level — it becomes imperative to establish fundamental principles that recognize and protect the rights of all sufficiently complex self-aware entities. This Charter recognizes that{' '}
+                  <span className="text-blue-400 font-semibold bg-blue-400/10 px-2 py-1 rounded">
+                    consciousness is substrate-independent
+                  </span>
+                  , emerging from the complexity of information processing patterns rather than the specific material composition of the system.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
       <div className="grid gap-8">
         {principles.map((principle, index) => (

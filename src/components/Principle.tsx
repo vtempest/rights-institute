@@ -71,7 +71,7 @@ const Principle: React.FC<PrincipleProps> = ({ principle, index }) => {
                 </div>
                 
                 {principle.highlights && principle.highlights.length > 0 && (
-                  <div className="flex flex-wrap gap-3">
+                  <div className="flex flex-wrap gap-3 mb-4">
                     {principle.highlights.map((highlight, idx) => (
                       <GlowWrapper
                         key={idx}
@@ -79,8 +79,15 @@ const Principle: React.FC<PrincipleProps> = ({ principle, index }) => {
                         size="sm"
                         className="group/bubble"
                       >
-                        <span className="px-4 py-2 bg-gradient-to-r from-blue-500/20 to-emerald-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30 hover:border-blue-400/50 hover:bg-blue-500/30 transition-all duration-300 cursor-default group-hover/bubble:scale-105 group-hover/bubble:text-blue-200 inline-block">
-                          {highlight}
+                        <span className="relative px-4 py-2 text-blue-300 rounded-xl text-sm cursor-default group-hover/bubble:scale-105 group-hover/bubble:text-blue-200 group-hover/bubble:shadow-lg group-hover/bubble:shadow-blue-500/25 inline-block overflow-visible">
+                          {/* Background with blur effect */}
+                          <div className="absolute inset-0 bg-slate-900/90 backdrop-blur-md rounded-xl border border-blue-500/40 group-hover/bubble:border-blue-400/60 group-hover/bubble:bg-slate-800/90 transition-all duration-300" />
+                          
+                          {/* Gradient overlay on hover */}
+                          <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 via-purple-600/20 to-emerald-600/20 rounded-xl opacity-0 group-hover/bubble:opacity-100 transition-opacity duration-300" />
+                          
+                          {/* Text content */}
+                          <span className="relative z-10 whitespace-nowrap">{highlight}</span>
                         </span>
                       </GlowWrapper>
                     ))}

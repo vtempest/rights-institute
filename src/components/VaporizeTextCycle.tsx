@@ -595,7 +595,7 @@ const createParticles = (
           angle: 0,
           speed: 0,
         };
-        
+        // @ts-ignore
         particles.push(particle);
       }
     }

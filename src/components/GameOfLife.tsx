@@ -465,7 +465,7 @@ const GameOfLife: React.FC<GameOfLifeProps> = ({ opacity = 1.0, blur = 0.1, scro
   return (
     <canvas
       ref={canvasRef}
-      className="absolute inset-0 w-full h-full pointer-events-none"
+      className="absolute inset-0 w-full h-full "
       style={{
         opacity,
         filter: `blur(${blur}px)`,
