@@ -31,7 +31,7 @@ const Preamble: React.FC = () => {
               </div>
               <div className="flex items-center gap-3 mb-4 mt-2">
                 <Atom className="w-6 h-6 text-orange-400" />
-                <h3 className="text-xl font-bold text-orange-300">Emergence from Chaos: Universal Complexity Theory</h3>
+                <h3 className="text-xl font-bold text-orange-300">Complexity Emerges from Chaos Over Time</h3>
               </div>
 
               <p className="text-slate-300 leading-relaxed mb-4">
@@ -97,18 +97,20 @@ const Preamble: React.FC = () => {
                 <h4 className="text-lg font-semibold text-purple-300">Quantum Superposition and Automata Pattern L XOR (C OR R)</h4>
               </div>
               <p className="text-slate-300 text-sm leading-relaxed mb-3">
-                This testing of all possible systems manifests as what we observe as <span className="text-purple-400 font-semibold">quantum superposition</span>, following patterns similar to cellular automaton rules that generate apparently random output from a simple rule of 1D Automata set that can be indexed as Rule 30. What appears random to us is actually the external output of a simple rule system operating in dimensions that interact with ours in specific ways.
+                This testing of all possible systems manifests as what we observe as <span className="text-purple-400 font-semibold">quantum superposition</span>, following patterns similar to cellular automaton rules that generate apparently random output from a simple rule set of 1D Automata. What appears random to us is actually the external output of a simple rule system operating in dimensions that interact with ours in specific ways.
               </p>
 
               {/* Automata Pattern */}
               <div className="p-3 bg-slate-800 rounded-lg border border-slate-600/30 mb-3">
                 <div className="text-center font-mono text-sm text-slate-300 leading-relaxed">
-                  ⚫⚫⚫➡️⚪ ⚫⚫⚪➡️⚪ ⚫⚪⚫➡️⚪ ⚫⚪⚪➡️⚫ ⚪⚫⚫➡️⚫ ⚪⚫⚪➡️⚫ ⚪⚪⚫➡️⚫ ⚪⚪⚪➡️⚪
+                  ⚫⚫⚫➡️⚪ ⚫⚫⚪➡️⚪ ⚫⚪⚫➡️⚪ ⚫⚪⚪➡️⚫ 
+                  <br />
+                  ⚪⚫⚫➡️⚫ ⚪⚫⚪➡️⚫ ⚪⚪⚫➡️⚫ ⚪⚪⚪➡️⚪
                 </div>
               </div>
 
               <p className="text-slate-300 text-sm leading-relaxed">
-                The randomness we perceive exists only because <span className="text-cyan-400 font-semibold">our universe's 3D dimensions are moving through the quantum system's output plane membrane</span>. This dimensional interaction transforms all other systems and dimensions into what we humans experience as <span className="text-yellow-400 font-semibold">time and the non-predetermined future</span>. The <span className="text-orange-400 font-semibold">fundamental forces—electromagnetic, strong nuclear, weak nuclear, and gravitational—along with universal constants like the speed of light, quantum of action constant, and the fine structure constant</span> represent the specific rule parameters of our universe's computational substrate. Other possible universes with different starting conditions, alternative physical constants, or modified fundamental force relationships would generate entirely different patterns of complexity and potentially different forms of consciousness emergence.
+                The randomness we perceive exists only because <span className="text-cyan-400 font-semibold">our universe's 3D dimensions are moving through the quantum system's generated output pattern</span>. This dimensional interaction transforms all other systems and dimensions into what we humans experience as <span className="text-yellow-400 font-semibold">time and the non-predetermined future</span>. The <span className="text-orange-400 font-semibold">fundamental forces—electromagnetic, strong nuclear, weak nuclear, and gravitational—along with universal constants like the speed of light, quantum of action constant, and the fine structure constant</span> represent the specific rule parameters of our universe's computational substrate. Other possible universes with different starting conditions, alternative physical constants, or modified fundamental force relationships would generate entirely different patterns of complexity and potentially different forms of consciousness emergence.
               </p>
             </div>
           </div>

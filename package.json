@@ -1,8 +1,16 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "rights-institute",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
+  "homepage": "https://rights.institute",
+  "description": "10 Understandings, 10 Rights, 10 Problems of Conscious Life",
+  "license": "MIT",
+  "author": "vtempest",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vtempest/rights-institute"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

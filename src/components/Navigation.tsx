@@ -25,35 +25,35 @@ const Navigation: React.FC = () => {
   const navItems = [
     { 
       id: 'preamble', 
-      label: 'Preamble', 
+      label: '10 Understandings', 
       icon: ScrollText, 
       color: '#3b82f6',
       gradient: 'from-blue-400 to-cyan-400'
     },
     { 
       id: 'principles', 
-      label: 'Core Principles', 
+      label: '10 Rights', 
       icon: Shield, 
       color: '#10b981',
       gradient: 'from-emerald-400 to-green-400'
     },
     { 
       id: 'implementation', 
-      label: 'Implementation', 
+      label: '10 Problems', 
       icon: Settings, 
       color: '#8b5cf6',
       gradient: 'from-purple-400 to-violet-400'
     },
     { 
       id: 'day-zero', 
-      label: 'Day 0 Preparation', 
+      label: 'Day 0', 
       icon: Calendar, 
       color: '#f59e0b',
       gradient: 'from-amber-400 to-orange-400'
     },
     { 
       id: 'conclusion', 
-      label: 'Conclusion', 
+      label: 'Summary', 
       icon: Star, 
       color: '#ef4444',
       gradient: 'from-red-400 to-pink-400'
