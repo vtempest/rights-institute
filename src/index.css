@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Ensure right-click context menu and text selection work */
+* {
+  -webkit-user-select: auto !important;
+  -moz-user-select: auto !important;
+  -ms-user-select: auto !important;
+  user-select: auto !important;
+  pointer-events: auto !important;
+}
+
+/* Ensure body and html allow right-click */
+html, body {
+  -webkit-user-select: auto !important;
+  -moz-user-select: auto !important;
+  -ms-user-select: auto !important;
+  user-select: auto !important;
+  pointer-events: auto !important;
+}
+
 @layer utilities {
   /* Border beam animation */
   @keyframes border-beam {

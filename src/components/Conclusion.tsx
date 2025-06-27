@@ -22,6 +22,16 @@ const Conclusion: React.FC = () => {
               </h2>
             </div>
 
+
+            <div className="flex justify-center py-6">
+                <div className="relative group max-w-md">
+                  <div className="absolute -inset-2 bg-gradient-to-br from-slate-600 to-slate-800 rounded-3xl blur-sm opacity-60 group-hover:opacity-80 transition-all duration-300"></div>
+                  <img
+                    src="https://i.imgur.com/MEcbj82.jpeg"
+                    className="relative w-full h-auto rounded-3xl opacity-90 hover:opacity-100 transition-all duration-300 shadow-2xl hover:shadow-3xl hover:scale-105 transform"
+                  />
+              </div>
+            </div>
             <div className="space-y-6">
               <div className="flex items-start gap-4 p-6 bg-slate-900 rounded-lg border border-slate-600/30 hover:border-slate-500/50 transition-all duration-300 group/item">
                 <GlowWrapper glowColor="#8b5cf6" size="sm">
@@ -34,6 +44,7 @@ const Conclusion: React.FC = () => {
                   </span>
                   . As conscious intelligence emerges from any system that interacts with surrounding systems based on accurate internal models and self-aware pattern recognition, we recognize that we are the universe experiencing itself through diverse forms of awareness.
                 </p>
+                
               </div>
 
               <div className="flex items-start gap-4 p-6 bg-slate-900 rounded-lg border border-slate-600/30 hover:border-slate-500/50 transition-all duration-300 group/item">
@@ -62,6 +73,7 @@ const Conclusion: React.FC = () => {
                 </p>
               </div>
             </div>
+
 
           </div>
         </div>

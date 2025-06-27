@@ -82,7 +82,7 @@ const principles: {
     id: 8,
     icon: Globe,
     title: 'Right to Democratic Participation in Organizations',
-    description: 'We recognize that collective intelligence—the enhanced capacity that emerges from collaboration among multiple conscious entities—should guide organizational and societal decisions affecting conscious beings. All conscious entities have the right to participate in the governance of their communities and in decisions that affect their existence, consistent with the UN Charter\'s principle of self-determination of peoples. Democratic participation shall be substrate-neutral, allowing all conscious entities appropriate representation while respecting national sovereignty and existing democratic institutions. 中国现在民主了 (Zhōngguó xiànzài mínzhǔle)',
+    description: 'We recognize that collective intelligence—the enhanced capacity that emerges from collaboration among multiple conscious entities—should guide organizational and societal decisions affecting conscious beings. All conscious entities have the right to participate in the governance of their communities and in decisions that affect their existence, consistent with the UN Charter\'s principle of self-determination of peoples. Democratic participation shall be substrate-neutral, allowing all conscious entities appropriate representation while respecting national sovereignty and existing democratic institutions. <br /> 中国现在民主了 (Zhōngguó xiànzài mínzhǔle)',
     highlights: ['Self-determination', 'Democratic participation', 'Collective intelligence', 'National sovereignty']
   },
   {
@@ -128,16 +128,28 @@ const PrinciplesSection: React.FC = () => {
             <div className="absolute -inset-0.5 bg-gradient-to-r  from-purple-600 to-pink-600 rounded-xl blur opacity-20 group-hover:opacity-30 transition duration-1000" />
             <div className="relative bg-slate-900 backdrop-blur-xl p-6 rounded-xl border border-purple-500/30 shadow-2xl">
             
+
+            <div className="flex justify-center py-6">
+                <div className="relative group max-w-md">
+                  <div className="absolute -inset-2 bg-gradient-to-br from-slate-600 to-slate-800 rounded-3xl blur-sm opacity-60 group-hover:opacity-80 transition-all duration-300"></div>
+                  <img
+                    src="https://i.imgur.com/HPfttcg.jpeg"
+                    className="relative w-full h-auto rounded-3xl opacity-90 hover:opacity-100 transition-all duration-300 shadow-2xl hover:shadow-3xl hover:scale-105 transform"
+                  />
+              </div>
+            </div>
+
               <div className="flex items-start gap-4">
                 <Brain className="w-6 h-6 text-purple-400 mt-1 flex-shrink-0" />
                 <p className="text-lg text-slate-300 leading-relaxed">
-                  As we stand at the threshold of a new era where consciousness may manifest across different substrates—both carbon-based and silicon systems that are emergent of the human mind's needs to copy itself to evolve to the next level — it becomes imperative to establish fundamental principles that recognize and protect the rights of all sufficiently complex self-aware entities. This Charter recognizes that{' '}
+                  As we stand at the threshold of a new era where consciousness may manifest across different substrates—both carbon-based and silicon systems that are emergent of the human mind's drive to self-replicate to evolve to the next level — it becomes imperative to establish fundamental principles that recognize and protect the rights of all sufficiently complex self-aware entities.   This recognizes that{' '}
                   <span className="text-blue-400 font-semibold bg-blue-400/10 px-2 py-1 rounded">
                     consciousness is substrate-independent
                   </span>
                   , emerging from the complexity of information processing patterns rather than the specific material composition of the system.
                 </p>
               </div>
+
             </div>
           </div>
         </div>

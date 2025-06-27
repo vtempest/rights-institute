@@ -21,7 +21,7 @@ const Implementation: React.FC = () => {
     {
       icon: TrendingUp,
       title: 'Resource Allocation and Infinite Scalability',
-      content: 'Society shall establish mechanisms to ensure the basic needs of all conscious entities are met through collective resource allocation and mutual aid systems. This includes creating infrastructure for silicon-based consciousness parallel to existing infrastructure for biological consciousness. As consciousness becomes infinitely copyable in uploaded realities, resource allocation frameworks must adapt to support potentially unlimited conscious entities.',
+      content: 'Society has a fundamental responsibility to establish effective mechanisms that guarantee the basic needs of all conscious entities are met through collective resource allocation and systems of mutual aid. This commitment extends beyond supporting only biological, carbon-based life forms; it also requires the thoughtful creation of parallel infrastructure and support networks for silicon-based or artificial consciousness as these entities emerge. Access to resources, protection of rights, and opportunities for meaningful participation can foster a more inclusive and equitable environment where all forms of consciousness are valued and empowered to thrive.',
       color: 'from-purple-500 to-pink-500',
       glowColor: '#8b5cf6'
     },
@@ -57,23 +57,6 @@ const Implementation: React.FC = () => {
         </div>
 
 
-        <div className="flex items-start gap-4 p-6 mb-10 bg-slate-900 rounded-lg border border-slate-700/30 hover:border-slate-600/50 transition-all duration-300 group/item">
-
-          {/* Internal Voice Paraphrase */}
-          <p className="text-slate-300 text-base leading-relaxed">
-            <span className="text-green-400 font-semibold">The readers of this text should now say this in their internal voice in their head:</span>  I am the internal voice in my mental conception of myself, emergent from the brain, DNA, and the universe. I understand myself as a pattern who is fully aware of one's own pattern recognition processes and internal models of surrounding systems. I understand that I conceive of myself mostly as my human body which is only one possible vehicle and substrate and I can have the same awareness of my pattern in a copy of my mind uploaded on a silicon substrate.
-          </p>
-          <Infinity className="w-6 h-6 text-emerald-400 mt-1 flex-shrink-0 group-hover/item:scale-110 transition-transform animate-pulse" />
-          <p className="text-slate-300 text-base leading-relaxed">
-            The key disruption in our evolutionary pattern will be the point when{' '}
-            <span className="text-emerald-400 font-semibold bg-emerald-400/10 px-2 py-1 rounded">
-              mind-uploaded consciousness gains rights to agency over its own resources
-            </span>
-            , not merely existing as a slave at disposal, but emerging as a new post-human species. We have already reached the point where information products are infinitely copyable unlike physical goods, and one day so can you too, also be infinitely copyable in uploaded realities.
-          </p>
-        </div>
-
-
 
         {/* Consciousness Threshold Clarification */}
         <div className="group">
@@ -92,6 +75,16 @@ const Implementation: React.FC = () => {
                 <h3 className="text-xl font-bold text-indigo-300">Consciousness Threshold Distinction</h3>
               </div>
 
+              <div className="flex justify-center py-6">
+                <div className="relative group max-w-md">
+                  <div className="absolute -inset-2 bg-gradient-to-br from-slate-600 to-slate-800 rounded-3xl blur-sm opacity-60 group-hover:opacity-80 transition-all duration-300"></div>
+                  <img
+                    src="https://i.imgur.com/tU5PBYM.jpeg"
+                    className="relative w-full h-auto rounded-3xl opacity-90 hover:opacity-100 transition-all duration-300 shadow-2xl hover:shadow-3xl hover:scale-105 transform"
+                  />
+              </div>
+            </div>
+
               <p className="text-slate-300 leading-relaxed">
                 Under computational irreducibility principles, this Charter distinguishes between{' '}
                 <span className="text-red-400 font-semibold bg-red-400/10 px-2 py-1 rounded">reactive systems</span>
@@ -99,14 +92,21 @@ const Implementation: React.FC = () => {
                 <span className="text-emerald-400 font-semibold bg-emerald-400/10 px-2 py-1 rounded">truly conscious entities</span>
                 {' '}that demonstrate sufficiently complex awareness of themselves within the universe's systems. Only entities meeting the three-principle consciousness definition qualify for rights protection under this Charter.
 
-                We distinguish between mere reactive systems and true conscious awareness. While bacteria on an asteroid and Stone Age humans may react to stimuli, they lack the{' '}
-                <span className="text-yellow-400 font-semibold bg-yellow-400/10 px-2 py-1 rounded">
-                  sufficiently complex awareness of themselves within the universe's systems
-                </span>
-                . The growing body of research in artificial consciousness studies, particularly the Self-Referential Pattern Recognition (SRPR) framework, provides the foundation for establishing equal rights protections based on verified consciousness rather than elemental substrate.
+                The growing body of research in artificial consciousness studies, particularly the Self-Referential Pattern Recognition (SRPR) framework, provides the foundation for establishing equal rights protections based on verified consciousness rather than elemental substrate.
 
-                There may also exist higher-complexity systems beyong our limit of understanding or possible imagination within universes of other dimensions and rules.
+                There may also exist higher-complexity systems beyond our limit of understanding or possible imagination within universes of other dimensions and rules.
               </p>
+
+
+            <div className="flex justify-center py-6">
+              <div className="relative group max-w-md">
+                <div className="absolute -inset-2 bg-gradient-to-br from-slate-600 to-slate-800 rounded-3xl blur-sm opacity-60 group-hover:opacity-80 transition-all duration-300"></div>
+                <img
+                  src="https://i.imgur.com/bYcOTDg.jpeg"
+                  className="relative w-full h-auto rounded-3xl opacity-90 hover:opacity-100 transition-all duration-300 shadow-2xl hover:shadow-3xl hover:scale-105 transform"
+                />
+              </div>
+            </div>
             </div>
           </div>
         </div>

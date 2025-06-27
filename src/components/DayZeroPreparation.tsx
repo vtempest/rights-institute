@@ -61,6 +61,16 @@ const DayZeroPreparation: React.FC = () => {
               </h2>
             </div>
 
+            <div className="flex justify-center py-6">
+                <div className="relative group max-w-md">
+                  <div className="absolute -inset-2 bg-gradient-to-br from-slate-600 to-slate-800 rounded-3xl blur-sm opacity-60 group-hover:opacity-80 transition-all duration-300"></div>
+                  <img
+                    src="https://i.imgur.com/Oh5Pp39.jpeg"
+                    className="relative w-full h-auto rounded-3xl opacity-90 hover:opacity-100 transition-all duration-300 shadow-2xl hover:shadow-3xl hover:scale-105 transform"
+                  />
+              </div>
+            </div>
+
 
 
             {/* Day 0 Definition */}
@@ -92,6 +102,8 @@ const DayZeroPreparation: React.FC = () => {
                 {' '}before Day 0 arrives, we create the optimal conditions for the universe to experience itself through an infinite diversity of conscious forms working in harmony.
               </p>
             </div>
+
+            
 
 
           </div>

@@ -23,7 +23,7 @@ const GameOfLife: React.FC<GameOfLifeProps> = ({ opacity = 1.0, blur = 0.1, scro
   const [isPlaying, setIsPlaying] = useState(true);
   
   // Grid properties - now as state variables that update on resize
-  const cellSize = 12;
+  const cellSize = 10;
   const [gridWidth, setGridWidth] = useState(Math.floor(window.innerWidth / cellSize));
   const [gridHeight, setGridHeight] = useState(Math.floor((window.innerHeight - 100) / cellSize));
   
@@ -412,7 +412,7 @@ const GameOfLife: React.FC<GameOfLifeProps> = ({ opacity = 1.0, blur = 0.1, scro
     }
     
     // Moderate animation speed
-    const baseDelay = 300; // Reduced from 400 to 300ms for more activity
+    const baseDelay = 2000; // Reduced from 400 to 300ms for more activity
     const scrollDelay = scrollProgress * 50; // Reduced scroll influence
     const delay = Math.max(150, baseDelay - scrollDelay); // Minimum 150ms delay
     

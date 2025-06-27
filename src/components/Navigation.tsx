@@ -80,7 +80,7 @@ const Navigation: React.FC = () => {
                   className="w-6 h-6 rounded-md opacity-90 hover:opacity-100 transition-opacity"
                 />
                 <span className="hidden sm:block font-semibold text-sm bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
-                  10 Rights of Conscious Life
+                  Hello, Self-Aware Conscious Pattern
                 </span>
               </button>
             </GlowWrapper>

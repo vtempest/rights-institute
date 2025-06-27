@@ -61,7 +61,8 @@ const Header: React.FC = () => {
           
           
           <p className="text-md md:text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed mb-8">
-            Establishing Universal Rules for Emergent Patterns of Self-Aware Conscious Systems
+            Common Understanding of Rules <br />
+            by and for Self-Aware Conscious Life Patterns
           </p>
           
 
@@ -76,19 +77,6 @@ const Header: React.FC = () => {
             </div>
           </div>
 
-          <div className="mt-8 flex justify-center">
-            <div className="flex space-x-2">
-              <GlowWrapper glowColor="#3b82f6" size="sm">
-                <div className="w-3 h-3 bg-blue-400 rounded-full animate-bounce delay-0 p-1"></div>
-              </GlowWrapper>
-              <GlowWrapper glowColor="#8b5cf6" size="sm">
-                <div className="w-3 h-3 bg-purple-400 rounded-full animate-bounce delay-150 p-1"></div>
-              </GlowWrapper>
-              <GlowWrapper glowColor="#10b981" size="sm">
-                <div className="w-3 h-3 bg-emerald-400 rounded-full animate-bounce delay-300 p-1"></div>
-              </GlowWrapper>
-            </div>
-          </div>
         </div>
       </div>
     </div>

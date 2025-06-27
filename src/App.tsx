@@ -28,6 +28,35 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Ensure right-click is allowed
+  useEffect(() => {
+    const enableRightClick = (e: Event) => {
+      // Explicitly allow right-click by not preventing default
+      e.stopPropagation();
+      return true;
+    };
+
+    // Remove any existing context menu event listeners that might block right-click
+    document.addEventListener('contextmenu', enableRightClick, true);
+    
+    // Also ensure no other event listeners are blocking right-click
+    const preventRightClickBlocking = (e: MouseEvent) => {
+      if (e.button === 2) { // Right mouse button
+        e.stopPropagation();
+        return true;
+      }
+    };
+    
+    document.addEventListener('mousedown', preventRightClickBlocking, true);
+    document.addEventListener('mouseup', preventRightClickBlocking, true);
+    
+    return () => {
+      document.removeEventListener('contextmenu', enableRightClick, true);
+      document.removeEventListener('mousedown', preventRightClickBlocking, true);
+      document.removeEventListener('mouseup', preventRightClickBlocking, true);
+    };
+  }, []);
+
   // Extremely subtle background colors
   const getBackgroundStyle = () => {
     // Very minimal color variations
@@ -117,8 +146,8 @@ function App() {
         
         {/* Game of Life - now the main visual element */}
         <GameOfLife 
-          opacity={0.9} // Slightly reduced from 1.0 for better integration
-          blur={0.05} // Reduced from 0.1 for even sharper appearance
+          opacity={0.7} // Slightly reduced from 1.0 for better integration
+          blur={0.2} // Reduced from 0.1 for even sharper appearance
           scrollProgress={scrollProgress}
         />
       </div>

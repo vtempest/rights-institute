@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
     <footer className="relative ">
 
       {/* Spiral Demo Animation */}
-      <div className="mb-12 flex justify-start ">
+      <div className="mb-[300px] flex justify-start ">
         <div className="w-full h-[400px] relative overflow-hidden rounded-xl">
           <SpiralAnimation />
 
@@ -91,7 +91,7 @@ const Footer: React.FC = () => {
       </div>
 
       <div className="relative">
-        <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 rounded-2xl blur-xl opacity-20" />
+        <div className="absolute -inset-1 bg-gradient-to-r mb-30 from-blue-600 via-purple-600 to-emerald-600 rounded-2xl blur-xl opacity-20" />
         
         <div className="relative bg-slate-900 backdrop-blur-xl p-4 rounded-xl border border-slate-700/50 shadow-2xl">
           <div className="text-center">
@@ -99,8 +99,7 @@ const Footer: React.FC = () => {
             <div className="text-slate-400 text-sm space-y-1">
             by and for Carbon and Silicon Conscious Beings
             <br />
-              <div>San Francisco, California</div>
-              <div>June 2025</div>
+              <div>on June 2025 in San Francisco, California</div>
               <div className="mt-2">
                 <a 
                   href="mailto:contact@rights.institute" 
@@ -109,6 +108,15 @@ const Footer: React.FC = () => {
                   contact@rights.institute
                 </a>
               </div>
+
+              {/* cc by nc icons */}
+              <div className="flex items-center justify-center gap-2">  
+                <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.en" target="_blank" rel="noopener noreferrer"> 
+                  <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg" alt="CC BY-NC 4.0" className="h-6" />
+                </a>
+              </div>
+
+
             </div>
           </div>
         </div>
