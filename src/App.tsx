@@ -1,13 +1,15 @@
-import Reaact, { useEffect, useState } from 'react';
-import Header from './components/Header';
-import Navigation from './components/Navigation';
-import Understandings from './components/Understandings';
-import RightsSection from './components/RightsSection';
-import Implementation from './components/Problems';
-import DayZeroPreparation from './components/DayZeroPreparation';
-import Conclusion from './components/Conclusion';
-import Footer from './components/Footer';
-import GameOfLife from './components/GameOfLife';
+'use client'
+
+import React, { useEffect, useState } from 'react';
+import Header from './components/Sections/Header';
+import Navigation from './Navigation';
+import Understandings from './components/Sections/Understandings';
+import RightsSection from './components/Sections/RightsSection';
+import Implementation from './components/Sections/Problems';
+import DayZeroPreparation from './components/Sections/DayZeroPreparation';
+import Conclusion from './components/Sections/Conclusion';
+import Footer from './components/Sections/Footer';
+import GameOfLife from './components/InteractiveApps/GameOfLife';
 
 function App() {
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -26,35 +28,6 @@ function App() {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  // Ensure right-click is allowed
-  useEffect(() => {
-    const enableRightClick = (e: Event) => {
-      // Explicitly allow right-click by not preventing default
-      e.stopPropagation();
-      return true;
-    };
-
-    // Remove any existing context menu event listeners that might block right-click
-    document.addEventListener('contextmenu', enableRightClick, true);
-    
-    // Also ensure no other event listeners are blocking right-click
-    const preventRightClickBlocking = (e: MouseEvent) => {
-      if (e.button === 2) { // Right mouse button
-        e.stopPropagation();
-        return true;
-      }
-    };
-    
-    document.addEventListener('mousedown', preventRightClickBlocking, true);
-    document.addEventListener('mouseup', preventRightClickBlocking, true);
-    
-    return () => {
-      document.removeEventListener('contextmenu', enableRightClick, true);
-      document.removeEventListener('mousedown', preventRightClickBlocking, true);
-      document.removeEventListener('mouseup', preventRightClickBlocking, true);
-    };
   }, []);
 
   // Extremely subtle background colors
@@ -146,15 +119,15 @@ function App() {
         
         {/* Game of Life - now the main visual element */}
         <GameOfLife 
-          opacity={0.7} // Slightly reduced from 1.0 for better integration
-          blur={0.2} // Reduced from 0.1 for even sharper appearance
+          opacity={0.9} // Slightly reduced from 1.0 for better integration
+          blur={0.05} // Reduced from 0.1 for even sharper appearance
           scrollProgress={scrollProgress}
         />
       </div>
       
       <div className="relative z-10">
         <Navigation />
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <article className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <Header />
           <Understandings />
           <RightsSection />
@@ -162,7 +135,7 @@ function App() {
           <DayZeroPreparation />
           <Conclusion />
           <Footer />
-        </div>
+        </article>
       </div>
     </div>
   );
