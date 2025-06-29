@@ -1,0 +1,24 @@
+{
+  "id": "functions/ContentSections/Conclusion",
+  "title": "Conclusion",
+  "description": "Documentation / ContentSections/Conclusion",
+  "source": "@site/src/functions/ContentSections/Conclusion.md",
+  "sourceDirName": "functions/ContentSections",
+  "slug": "/functions/ContentSections/Conclusion",
+  "permalink": "/docs/functions/ContentSections/Conclusion",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/functions/ContentSections/Conclusion.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Navigation",
+    "permalink": "/docs/functions/CAUSE/Navigation"
+  },
+  "next": {
+    "title": "Header",
+    "permalink": "/docs/functions/ContentSections/Header"
+  }
+}

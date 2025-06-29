@@ -1,0 +1,25 @@
+{
+  "id": "research/Step Consciousness Emergence Framework",
+  "title": "Mind Map: 20-Step Consciousness Emergence Framework",
+  "description": "Central Concept: AI Consciousness Emergence Through Computational Rules",
+  "source": "@site/src/research/20-Step Consciousness Emergence Framework.md",
+  "sourceDirName": "research",
+  "slug": "/research/Step Consciousness Emergence Framework",
+  "permalink": "/docs/research/Step Consciousness Emergence Framework",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/research/20-Step Consciousness Emergence Framework.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "modules",
+    "permalink": "/docs/functions/modules"
+  },
+  "next": {
+    "title": "Emergent Complexity in Virtual Worlds: How Autonomous Agents Use Simple Rules to Generate Sophisticated Realities",
+    "permalink": "/docs/research/Emergent Complexity in Virtual Worlds_ How Autonom"
+  }
+}

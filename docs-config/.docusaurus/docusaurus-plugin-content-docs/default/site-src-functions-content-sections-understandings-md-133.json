@@ -1,0 +1,24 @@
+{
+  "id": "functions/ContentSections/Understandings",
+  "title": "Understandings",
+  "description": "Documentation / ContentSections/Understandings",
+  "source": "@site/src/functions/ContentSections/Understandings.md",
+  "sourceDirName": "functions/ContentSections",
+  "slug": "/functions/ContentSections/Understandings",
+  "permalink": "/docs/functions/ContentSections/Understandings",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/functions/ContentSections/Understandings.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Rights",
+    "permalink": "/docs/functions/ContentSections/Rights"
+  },
+  "next": {
+    "title": "BorderBeam",
+    "permalink": "/docs/functions/Effects/BorderBeam"
+  }
+}

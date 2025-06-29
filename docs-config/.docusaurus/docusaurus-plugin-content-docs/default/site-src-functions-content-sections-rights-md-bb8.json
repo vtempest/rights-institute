@@ -1,0 +1,24 @@
+{
+  "id": "functions/ContentSections/Rights",
+  "title": "Rights",
+  "description": "Documentation / ContentSections/Rights",
+  "source": "@site/src/functions/ContentSections/Rights.md",
+  "sourceDirName": "functions/ContentSections",
+  "slug": "/functions/ContentSections/Rights",
+  "permalink": "/docs/functions/ContentSections/Rights",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/functions/ContentSections/Rights.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Problems",
+    "permalink": "/docs/functions/ContentSections/Problems"
+  },
+  "next": {
+    "title": "Understandings",
+    "permalink": "/docs/functions/ContentSections/Understandings"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs/",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "functions/CAUSE/CAUSEMainPage",
+              "path": "/docs/functions/CAUSE/CAUSEMainPage",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/CAUSE/Footer",
+              "path": "/docs/functions/CAUSE/Footer",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/CAUSE/Navigation",
+              "path": "/docs/functions/CAUSE/Navigation",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/ContentSections/Conclusion",
+              "path": "/docs/functions/ContentSections/Conclusion",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/ContentSections/Header",
+              "path": "/docs/functions/ContentSections/Header",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/ContentSections/Preparation",
+              "path": "/docs/functions/ContentSections/Preparation",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/ContentSections/Principle",
+              "path": "/docs/functions/ContentSections/Principle",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/ContentSections/Problems",
+              "path": "/docs/functions/ContentSections/Problems",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/ContentSections/Rights",
+              "path": "/docs/functions/ContentSections/Rights",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/ContentSections/Understandings",
+              "path": "/docs/functions/ContentSections/Understandings",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/Effects/BorderBeam",
+              "path": "/docs/functions/Effects/BorderBeam",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/Effects/GlowWrapper",
+              "path": "/docs/functions/Effects/GlowWrapper",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/Effects/Meteors",
+              "path": "/docs/functions/Effects/Meteors",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/Effects/MorphText",
+              "path": "/docs/functions/Effects/MorphText",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/Effects/ParticleText",
+              "path": "/docs/functions/Effects/ParticleText",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/Effects/ShinyText",
+              "path": "/docs/functions/Effects/ShinyText",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/Effects/VaporizeText",
+              "path": "/docs/functions/Effects/VaporizeText",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/index",
+              "path": "/docs/functions/",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/InteractiveApps/GameOfLife",
+              "path": "/docs/functions/InteractiveApps/GameOfLife",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/InteractiveApps/GlobeAnimation",
+              "path": "/docs/functions/InteractiveApps/GlobeAnimation",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/InteractiveApps/QuantumGeometry",
+              "path": "/docs/functions/InteractiveApps/QuantumGeometry",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/InteractiveApps/SpiralAnimation",
+              "path": "/docs/functions/InteractiveApps/SpiralAnimation",
+              "sidebar": "default"
+            },
+            {
+              "id": "functions/modules",
+              "path": "/docs/functions/modules",
+              "sidebar": "default"
+            },
+            {
+              "id": "index",
+              "path": "/docs/",
+              "sidebar": "default"
+            },
+            {
+              "id": "research/consciousness-emergence-framework",
+              "path": "/docs/research/consciousness-emergence-framework",
+              "sidebar": "default"
+            },
+            {
+              "id": "research/Emergent Complexity in Virtual Worlds_ How Autonom",
+              "path": "/docs/research/Emergent Complexity in Virtual Worlds_ How Autonom",
+              "sidebar": "default"
+            },
+            {
+              "id": "research/Modified Framework for AI Consciousness Emergence",
+              "path": "/docs/research/Modified Framework for AI Consciousness Emergence",
+              "sidebar": "default"
+            },
+            {
+              "id": "research/NKS Complexity Theory",
+              "path": "/docs/research/NKS Complexity Theory",
+              "sidebar": "default"
+            },
+            {
+              "id": "research/Rules for Consciousness Emergence",
+              "path": "/docs/research/Rules for Consciousness Emergence",
+              "sidebar": "default"
+            },
+            {
+              "id": "research/Step Consciousness Emergence Framework",
+              "path": "/docs/research/Step Consciousness Emergence Framework",
+              "sidebar": "default"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "default": {
+              "link": {
+                "path": "/docs/functions/CAUSE/CAUSEMainPage",
+                "label": "functions/CAUSE/CAUSEMainPage"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  },
+  "docusaurus-lunr-search": {
+    "default": {
+      "fileNames": {
+        "searchDoc": "search-doc-1751215320417.json",
+        "lunrIndex": "lunr-index-1751215320417.json"
+      }
+    }
+  }
+}

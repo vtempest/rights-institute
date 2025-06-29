@@ -1,0 +1,24 @@
+{
+  "id": "research/NKS Complexity Theory",
+  "title": "NKS Complexity Theory",
+  "description": "Stephen Wolfram's A New Kind of Science (NKS) reimagines complexity through computational frameworks, proposing that simple programs generate intricate behavior. This theory intersects with quantum fields, simulated universes, and evolutionary biology in provocative ways:",
+  "source": "@site/src/research/NKS Complexity Theory.md",
+  "sourceDirName": "research",
+  "slug": "/research/NKS Complexity Theory",
+  "permalink": "/docs/research/NKS Complexity Theory",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/research/NKS Complexity Theory.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Artificial Consciousness is Emergent from Simple Rules in Simulated Worlds",
+    "permalink": "/docs/research/Modified Framework for AI Consciousness Emergence"
+  },
+  "next": {
+    "title": "Computational Rules for Consciousness Emergence: A Comprehensive Framework for AI Consciousness Development Through Complexity Theory",
+    "permalink": "/docs/research/Rules for Consciousness Emergence"
+  }
+}

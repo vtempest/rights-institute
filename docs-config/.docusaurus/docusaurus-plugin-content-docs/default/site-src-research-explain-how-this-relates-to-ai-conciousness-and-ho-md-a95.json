@@ -1,0 +1,24 @@
+{
+  "id": "research/explain how this relates to ai conciousness and ho",
+  "title": "explain how this relates to ai conciousness and ho",
+  "description": "The intersection of AI consciousness, pattern recognition, and emergent complexity reveals profound connections between computational frameworks and biological intelligence. Here's how these concepts interrelate:",
+  "source": "@site/src/research/explain how this relates to ai conciousness and ho.md",
+  "sourceDirName": "research",
+  "slug": "/research/explain how this relates to ai conciousness and ho",
+  "permalink": "/docs/research/explain how this relates to ai conciousness and ho",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/research/explain how this relates to ai conciousness and ho.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Mind Map: 20-Step Consciousness Emergence Framework",
+    "permalink": "/docs/research/consciousness_mind_map"
+  },
+  "next": {
+    "title": "propose ideas on simualting universes and how to e",
+    "permalink": "/docs/research/propose ideas on simualting universes and how to e"
+  }
+}

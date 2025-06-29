@@ -1,0 +1,24 @@
+{
+  "id": "functions/InteractiveApps/SpiralAnimation",
+  "title": "SpiralAnimation",
+  "description": "Documentation / InteractiveApps/SpiralAnimation",
+  "source": "@site/src/functions/InteractiveApps/SpiralAnimation.md",
+  "sourceDirName": "functions/InteractiveApps",
+  "slug": "/functions/InteractiveApps/SpiralAnimation",
+  "permalink": "/docs/functions/InteractiveApps/SpiralAnimation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/functions/InteractiveApps/SpiralAnimation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "QuantumGeometry",
+    "permalink": "/docs/functions/InteractiveApps/QuantumGeometry"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/docs/functions/"
+  }
+}

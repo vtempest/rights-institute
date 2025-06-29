@@ -1,0 +1,24 @@
+{
+  "id": "functions/InteractiveApps/GlobeAnimation",
+  "title": "GlobeAnimation",
+  "description": "Documentation / InteractiveApps/GlobeAnimation",
+  "source": "@site/src/functions/InteractiveApps/GlobeAnimation.md",
+  "sourceDirName": "functions/InteractiveApps",
+  "slug": "/functions/InteractiveApps/GlobeAnimation",
+  "permalink": "/docs/functions/InteractiveApps/GlobeAnimation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/functions/InteractiveApps/GlobeAnimation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "GameOfLife",
+    "permalink": "/docs/functions/InteractiveApps/GameOfLife"
+  },
+  "next": {
+    "title": "QuantumGeometry",
+    "permalink": "/docs/functions/InteractiveApps/QuantumGeometry"
+  }
+}

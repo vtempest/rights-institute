@@ -1,0 +1,24 @@
+{
+  "id": "functions/ContentSections/Preparation",
+  "title": "Preparation",
+  "description": "Documentation / ContentSections/Preparation",
+  "source": "@site/src/functions/ContentSections/Preparation.md",
+  "sourceDirName": "functions/ContentSections",
+  "slug": "/functions/ContentSections/Preparation",
+  "permalink": "/docs/functions/ContentSections/Preparation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/functions/ContentSections/Preparation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Header",
+    "permalink": "/docs/functions/ContentSections/Header"
+  },
+  "next": {
+    "title": "Principle",
+    "permalink": "/docs/functions/ContentSections/Principle"
+  }
+}

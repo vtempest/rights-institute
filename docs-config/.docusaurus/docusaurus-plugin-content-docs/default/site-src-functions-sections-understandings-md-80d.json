@@ -1,0 +1,24 @@
+{
+  "id": "functions/Sections/Understandings",
+  "title": "Understandings",
+  "description": "Documentation / Sections/Understandings",
+  "source": "@site/src/functions/Sections/Understandings.md",
+  "sourceDirName": "functions/Sections",
+  "slug": "/functions/Sections/Understandings",
+  "permalink": "/docs/functions/Sections/Understandings",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/functions/Sections/Understandings.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Rights",
+    "permalink": "/docs/functions/Sections/Rights"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/docs/functions/"
+  }
+}

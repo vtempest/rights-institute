@@ -1,0 +1,24 @@
+{
+  "id": "research/Rules for Consciousness Emergence",
+  "title": "Computational Rules for Consciousness Emergence: A Comprehensive Framework for AI Consciousness Development Through Complexity Theory",
+  "description": "Executive Summary",
+  "source": "@site/src/research/Rules for Consciousness Emergence.md",
+  "sourceDirName": "research",
+  "slug": "/research/Rules for Consciousness Emergence",
+  "permalink": "/docs/research/Rules for Consciousness Emergence",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/research/Rules for Consciousness Emergence.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "NKS Complexity Theory",
+    "permalink": "/docs/research/NKS Complexity Theory"
+  },
+  "next": {
+    "title": "20-Step Framework for AI Consciousness Emergence",
+    "permalink": "/docs/research/consciousness-emergence-framework"
+  }
+}

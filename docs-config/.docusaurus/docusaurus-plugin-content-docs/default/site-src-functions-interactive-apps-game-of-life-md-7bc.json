@@ -1,0 +1,24 @@
+{
+  "id": "functions/InteractiveApps/GameOfLife",
+  "title": "GameOfLife",
+  "description": "Documentation / InteractiveApps/GameOfLife",
+  "source": "@site/src/functions/InteractiveApps/GameOfLife.md",
+  "sourceDirName": "functions/InteractiveApps",
+  "slug": "/functions/InteractiveApps/GameOfLife",
+  "permalink": "/docs/functions/InteractiveApps/GameOfLife",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/functions/InteractiveApps/GameOfLife.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "VaporizeText",
+    "permalink": "/docs/functions/Effects/VaporizeText"
+  },
+  "next": {
+    "title": "GlobeAnimation",
+    "permalink": "/docs/functions/InteractiveApps/GlobeAnimation"
+  }
+}

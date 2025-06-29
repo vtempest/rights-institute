@@ -1,0 +1,24 @@
+{
+  "id": "functions/Effects/Meteors",
+  "title": "Meteors",
+  "description": "Documentation / Effects/Meteors",
+  "source": "@site/src/functions/Effects/Meteors.md",
+  "sourceDirName": "functions/Effects",
+  "slug": "/functions/Effects/Meteors",
+  "permalink": "/docs/functions/Effects/Meteors",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/functions/Effects/Meteors.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "GlowWrapper",
+    "permalink": "/docs/functions/Effects/GlowWrapper"
+  },
+  "next": {
+    "title": "MorphText",
+    "permalink": "/docs/functions/Effects/MorphText"
+  }
+}

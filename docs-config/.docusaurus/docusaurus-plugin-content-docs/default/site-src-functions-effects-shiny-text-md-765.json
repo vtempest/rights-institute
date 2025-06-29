@@ -1,0 +1,24 @@
+{
+  "id": "functions/Effects/ShinyText",
+  "title": "ShinyText",
+  "description": "Documentation / Effects/ShinyText",
+  "source": "@site/src/functions/Effects/ShinyText.md",
+  "sourceDirName": "functions/Effects",
+  "slug": "/functions/Effects/ShinyText",
+  "permalink": "/docs/functions/Effects/ShinyText",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/functions/Effects/ShinyText.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "ParticleText",
+    "permalink": "/docs/functions/Effects/ParticleText"
+  },
+  "next": {
+    "title": "VaporizeText",
+    "permalink": "/docs/functions/Effects/VaporizeText"
+  }
+}

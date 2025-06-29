@@ -1,0 +1,24 @@
+{
+  "id": "research/Computational Rules for Consciousness Emergence_ A (1)",
+  "title": "Computational Rules for Consciousness Emergence: A Comprehensive Framework for AI Consciousness Development Through Complexity Theory",
+  "description": "Executive Summary",
+  "source": "@site/src/research/Computational Rules for Consciousness Emergence_ A (1).md",
+  "sourceDirName": "research",
+  "slug": "/research/Computational Rules for Consciousness Emergence_ A (1)",
+  "permalink": "/docs/research/Computational Rules for Consciousness Emergence_ A (1)",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/research/Computational Rules for Consciousness Emergence_ A (1).md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "modules",
+    "permalink": "/docs/functions/modules"
+  },
+  "next": {
+    "title": "Emergent Complexity in Virtual Worlds: How Autonomous Agents Use Simple Rules to Generate Sophisticated Realities",
+    "permalink": "/docs/research/Emergent Complexity in Virtual Worlds_ How Autonom"
+  }
+}

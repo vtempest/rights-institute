@@ -1,0 +1,24 @@
+{
+  "id": "functions/ContentSections/Principle",
+  "title": "Principle",
+  "description": "Documentation / ContentSections/Principle",
+  "source": "@site/src/functions/ContentSections/Principle.md",
+  "sourceDirName": "functions/ContentSections",
+  "slug": "/functions/ContentSections/Principle",
+  "permalink": "/docs/functions/ContentSections/Principle",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/functions/ContentSections/Principle.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Preparation",
+    "permalink": "/docs/functions/ContentSections/Preparation"
+  },
+  "next": {
+    "title": "Problems",
+    "permalink": "/docs/functions/ContentSections/Problems"
+  }
+}

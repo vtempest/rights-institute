@@ -1,0 +1,24 @@
+{
+  "id": "functions/Effects/GlowWrapper",
+  "title": "GlowWrapper",
+  "description": "Documentation / Effects/GlowWrapper",
+  "source": "@site/src/functions/Effects/GlowWrapper.md",
+  "sourceDirName": "functions/Effects",
+  "slug": "/functions/Effects/GlowWrapper",
+  "permalink": "/docs/functions/Effects/GlowWrapper",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/functions/Effects/GlowWrapper.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "BorderBeam",
+    "permalink": "/docs/functions/Effects/BorderBeam"
+  },
+  "next": {
+    "title": "Meteors",
+    "permalink": "/docs/functions/Effects/Meteors"
+  }
+}

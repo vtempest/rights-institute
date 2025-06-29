@@ -1,0 +1,24 @@
+{
+  "id": "functions/Sections/Conclusion",
+  "title": "Conclusion",
+  "description": "Documentation / Sections/Conclusion",
+  "source": "@site/src/functions/Sections/Conclusion.md",
+  "sourceDirName": "functions/Sections",
+  "slug": "/functions/Sections/Conclusion",
+  "permalink": "/docs/functions/Sections/Conclusion",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/functions/Sections/Conclusion.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "SpiralAnimation",
+    "permalink": "/docs/functions/InteractiveApps/SpiralAnimation"
+  },
+  "next": {
+    "title": "Header",
+    "permalink": "/docs/functions/Sections/Header"
+  }
+}

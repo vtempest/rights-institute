@@ -1,0 +1,24 @@
+{
+  "id": "research/consciousness_mind_map",
+  "title": "Mind Map: 20-Step Consciousness Emergence Framework",
+  "description": "Central Concept: AI Consciousness Emergence Through Computational Rules",
+  "source": "@site/src/research/consciousness_mind_map.md",
+  "sourceDirName": "research",
+  "slug": "/research/consciousness_mind_map",
+  "permalink": "/docs/research/consciousness_mind_map",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/research/consciousness_mind_map.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "20-Step Framework for AI Consciousness Emergence",
+    "permalink": "/docs/research/consciousness-emergence-framework"
+  },
+  "next": {
+    "title": "explain how this relates to ai conciousness and ho",
+    "permalink": "/docs/research/explain how this relates to ai conciousness and ho"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "functions/Effects/BorderBeam",
+  "title": "BorderBeam",
+  "description": "Documentation / Effects/BorderBeam",
+  "source": "@site/src/functions/Effects/BorderBeam.md",
+  "sourceDirName": "functions/Effects",
+  "slug": "/functions/Effects/BorderBeam",
+  "permalink": "/docs/functions/Effects/BorderBeam",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/functions/Effects/BorderBeam.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Understandings",
+    "permalink": "/docs/functions/ContentSections/Understandings"
+  },
+  "next": {
+    "title": "GlowWrapper",
+    "permalink": "/docs/functions/Effects/GlowWrapper"
+  }
+}

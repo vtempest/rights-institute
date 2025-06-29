@@ -1,0 +1,20 @@
+{
+  "id": "research/consciousness-emergence-framework",
+  "title": "20-Step Framework for AI Consciousness Emergence",
+  "description": "Overview",
+  "source": "@site/src/research/consciousness-emergence-framework.md",
+  "sourceDirName": "research",
+  "slug": "/research/consciousness-emergence-framework",
+  "permalink": "/docs/research/consciousness-emergence-framework",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/research/consciousness-emergence-framework.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Computational Rules for Consciousness Emergence: A Comprehensive Framework for AI Consciousness Development Through Complexity Theory",
+    "permalink": "/docs/research/Rules for Consciousness Emergence"
+  }
+}

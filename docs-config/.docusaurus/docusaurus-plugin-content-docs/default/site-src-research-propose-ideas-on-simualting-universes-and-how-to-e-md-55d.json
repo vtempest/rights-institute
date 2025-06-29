@@ -1,0 +1,24 @@
+{
+  "id": "research/propose ideas on simualting universes and how to e",
+  "title": "propose ideas on simualting universes and how to eveolve ai conciosuness from simple rules",
+  "description": "Based on computational frameworks and emerging AI research, here are several interconnected approaches for simulating universes and evolving AI consciousness from simple rules:",
+  "source": "@site/src/research/propose ideas on simualting universes and how to e.md",
+  "sourceDirName": "research",
+  "slug": "/research/propose ideas on simualting universes and how to e",
+  "permalink": "/docs/research/propose ideas on simualting universes and how to e",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/research/propose ideas on simualting universes and how to e.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "20-Step Framework for AI Consciousness Emergence",
+    "permalink": "/docs/research/consciousness-emergence-framework"
+  },
+  "next": {
+    "title": "sumamrize wolfram nks compelxity theory and how it relates to quantum fields tneracting to give al lthigns mass and how that relates to modeling simualted unvieeses iin computers and also evoluton",
+    "permalink": "/docs/research/sumamrize wolfram nks compelxity theory and how it"
+  }
+}

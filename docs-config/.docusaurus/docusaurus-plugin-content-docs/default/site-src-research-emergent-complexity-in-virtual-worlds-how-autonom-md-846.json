@@ -1,0 +1,24 @@
+{
+  "id": "research/Emergent Complexity in Virtual Worlds_ How Autonom",
+  "title": "Emergent Complexity in Virtual Worlds: How Autonomous Agents Use Simple Rules to Generate Sophisticated Realities",
+  "description": "Executive Summary",
+  "source": "@site/src/research/Emergent Complexity in Virtual Worlds_ How Autonom.md",
+  "sourceDirName": "research",
+  "slug": "/research/Emergent Complexity in Virtual Worlds_ How Autonom",
+  "permalink": "/docs/research/Emergent Complexity in Virtual Worlds_ How Autonom",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/research/Emergent Complexity in Virtual Worlds_ How Autonom.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Mind Map: 20-Step Consciousness Emergence Framework",
+    "permalink": "/docs/research/Step Consciousness Emergence Framework"
+  },
+  "next": {
+    "title": "Artificial Consciousness is Emergent from Simple Rules in Simulated Worlds",
+    "permalink": "/docs/research/Modified Framework for AI Consciousness Emergence"
+  }
+}

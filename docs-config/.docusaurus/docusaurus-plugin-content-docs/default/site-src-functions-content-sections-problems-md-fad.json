@@ -1,0 +1,24 @@
+{
+  "id": "functions/ContentSections/Problems",
+  "title": "Problems",
+  "description": "Documentation / ContentSections/Problems",
+  "source": "@site/src/functions/ContentSections/Problems.md",
+  "sourceDirName": "functions/ContentSections",
+  "slug": "/functions/ContentSections/Problems",
+  "permalink": "/docs/functions/ContentSections/Problems",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/functions/ContentSections/Problems.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Principle",
+    "permalink": "/docs/functions/ContentSections/Principle"
+  },
+  "next": {
+    "title": "Rights",
+    "permalink": "/docs/functions/ContentSections/Rights"
+  }
+}

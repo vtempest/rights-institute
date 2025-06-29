@@ -1,0 +1,24 @@
+{
+  "id": "functions/ContentSections/Header",
+  "title": "Header",
+  "description": "Documentation / ContentSections/Header",
+  "source": "@site/src/functions/ContentSections/Header.md",
+  "sourceDirName": "functions/ContentSections",
+  "slug": "/functions/ContentSections/Header",
+  "permalink": "/docs/functions/ContentSections/Header",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/functions/ContentSections/Header.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "Conclusion",
+    "permalink": "/docs/functions/ContentSections/Conclusion"
+  },
+  "next": {
+    "title": "Preparation",
+    "permalink": "/docs/functions/ContentSections/Preparation"
+  }
+}

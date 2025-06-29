@@ -1,0 +1,24 @@
+{
+  "id": "functions/Effects/VaporizeTextCycle",
+  "title": "VaporizeTextCycle",
+  "description": "Documentation / Effects/VaporizeTextCycle",
+  "source": "@site/src/functions/Effects/VaporizeTextCycle.md",
+  "sourceDirName": "functions/Effects",
+  "slug": "/functions/Effects/VaporizeTextCycle",
+  "permalink": "/docs/functions/Effects/VaporizeTextCycle",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/vtempest/rights-institute/tree/master/src/functions/Effects/VaporizeTextCycle.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "default",
+  "previous": {
+    "title": "ParticleText",
+    "permalink": "/docs/functions/Effects/ParticleText"
+  },
+  "next": {
+    "title": "GameOfLife",
+    "permalink": "/docs/functions/InteractiveApps/GameOfLife"
+  }
+}
